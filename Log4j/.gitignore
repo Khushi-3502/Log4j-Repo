@@ -1,1 +1,12 @@
+# Ignore target folder
 /target/
+
+# Ignore class files
+*.class
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Don't ignore properties
+# *.properties   ← make sure this line is not there
