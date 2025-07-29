@@ -1,3 +1,8 @@
 [2025-07-14 16:25:11] [main] INFO  DemoTest.Log4j.Logs1 - This is an INFO message
 [2025-07-14 16:25:11] [main] WARN  DemoTest.Log4j.Logs1 - This is a WARNING
 [2025-07-14 16:25:11] [main] ERROR DemoTest.Log4j.Logs1 - This is an ERROR
+[2025-07-29 09:34:36] [main] INFO  DemoTest.Log4j.Log4j2final - Successfully open chrom browser
+[2025-07-29 09:34:36] [main] INFO  DemoTest.Log4j.Log4j2final - windows maximized perfact
+[2025-07-29 09:34:38] [main] WARN  DemoTest.Log4j.Log4j2final - We use thread so it wait for a 1 second
+[2025-07-29 09:34:38] [main] INFO  DemoTest.Log4j.Log4j2final - Email is passed successfully
+[2025-07-29 09:34:39] [main] INFO  DemoTest.Log4j.Log4j2final - Password is filled successfully
