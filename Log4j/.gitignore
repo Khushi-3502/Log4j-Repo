@@ -1,12 +1,38 @@
 # Ignore target folder
 /target/
 
-# Ignore class files
+# Ignore compiled class files
 *.class
 
 # Ignore logs and temp files
 *.log
 *.tmp
 
-# Don't ignore properties
-# *.properties   ← make sure this line is not there
+# Ignore everything in test-output
+test-output/**
+
+# Allow specific files from test-output
+!test-output/emailable-report.html
+!test-output/index.html
+!test-output/testng-results.xml
+!test-output/testng-failed.xml
+!test-output/Default suite/
+!test-output/Default suite/Default test.html
+!test-output/Default suite/Default test.xml
+!test-output/Default suite/testng-failed.xml
+!test-output/junitreports/
+!test-output/junitreports/TEST-DemoTest.Log4j.dataprovider.xml
+!test-output/*.png
+!test-output/*.gif
+!test-output/*.js
+!test-output/*.css
+
+# Allow .properties files and Java files
+!src/main/resource/*.properties
+!src/test/java/**/*.java
+!src/main/java/**/*.java
+
+# Allow Eclipse project files
+!.classpath
+!.project
+!.settings/
